@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SpliteAndUinon - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/SpliteAndUinon.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\VC++6.00\MSDev98\MyProjects\SpliteAndUinon\ExName.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/SpliteAndUinon.pdb" /machine:I386 /out:"Release/SpliteAndUinon.exe" 
+".\Release\DoFileInfo.obj"
+".\Release\ExName.obj"
+".\Release\MyProgress.obj"
+".\Release\MySplite.obj"
+".\Release\MyUnion.obj"
+".\Release\SpliteAndUinon.obj"
+".\Release\SpliteAndUinonDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\SpliteAndUinon.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3E.tmp"
+<h3>Output Window</h3>
+Compiling...
+ExName.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+SpliteAndUinon.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
